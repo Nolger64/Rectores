@@ -35,6 +35,7 @@
 .CajaTituloPrincipal{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 20%;
 }
 .CajaInfoPrincipal{
@@ -131,4 +132,41 @@
 .Bajar:active{
     transform: translateY(-1px);
 }
-/**/
+/*Media Query Respoive*/
+@media (max-width: 800px) {
+    .TituloPrincipal{
+        padding: 0.3em 0.4em;
+        font-size: 1.8em;
+        margin: auto;
+    }
+    .CajaTituloPrincipal{
+        height: 10%;
+    }
+    .CajaInfoPrincipal{
+        display: flex;
+        flex-direction: column;
+        height: 85%;
+        justify-content: center;
+    }
+    .Saludos {
+        font-size: 20px;
+    }
+    .subTituloPrincipal{
+        margin: 10px;
+        font-size: large;
+    }
+    .CajaIzquierdaPrincipal{
+        margin: 10px 0;
+        font-size: small;
+    }
+    .IrUniguajira{
+        margin: 10px 0;
+    }
+    .foot{
+        height: 5%;
+    }
+    .Bajar{
+        width: 50px;
+        padding: 10px;
+    }
+}
