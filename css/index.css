@@ -147,6 +147,7 @@
         flex-direction: column;
         height: 85%;
         justify-content: center;
+        padding: 0;
     }
     .Saludos {
         font-size: 20px;

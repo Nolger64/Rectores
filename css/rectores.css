@@ -31,3 +31,31 @@
 .imgRectores{
     width: 300px;
 }
+
+@media (max-width: 800px) {
+    .seccionRector{
+        grid-template-columns: 100%;
+        padding: 0 10px;
+    }
+    .cajaImagenRector{
+        padding: 10px;
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nombreRectores{
+        font-size: 2em;
+    }
+    .duracionRectores {
+        font-size: 1.3em;
+        padding: 0;
+    }
+    .infoRectores{
+        font-size: 0.8em;
+    }
+    .imgRectores{
+        width: auto;
+        height: 100%;
+    }
+}
