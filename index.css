@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --color0 : #FFFAD7;
+    --color1 : #EC7272;
+    --color2 : #FFF;
+    --color3 : #FCDDB0;
+    --color4 : #EC7272;
+    --border-radius : 0.3em;
+}
+
+/*Secciones*/
+.primeraSeccion{
+    width: 100%;
+    height: 100vh;
+    background: var(--color0);
+}
+/**/
+
+/*---------------------primera seccion---------------------*/
+
+.CajaTituloPrincipal{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+.CajaInfoPrincipal{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    height: 70%;
+    padding: 2em;
+}
+
+/*------------CajaIzquierda------------*/
+
+.CajaDerechaPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Saludos{
+    background-color: var(--color3);
+    color: var(--color4);
+    font-size: 36px;
+    padding: 0.5em 1em;
+    border-radius: var(--border-radius);
+}
+.subTituloPrincipal{
+    font-size: xx-large;
+    margin: 40px 0;
+}
+/*------------CajaMitad------------*/
+
+.CajaMitadPrincipal{
+    display: flex;
+    align-items: center;
+}
+
+/*------------CajaIzquierda------------*/
+
+.CajaIzquierdaPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.IrUniguajira{
+    font-size: x-large;
+    margin: 40px 0;
+}
+.btnIrUniguajira{
+    
+}
+/**/
+/*--Elementos--*/
+.LogoPincipal{
+    width: 100%;
+    object-fit: cover;
+    padding: 1em;
+}
+.TituloPrincipal{
+    background-color: var(--color1);
+    padding: 0.5em 3em;
+    font-size: 2em;
+    margin: 1em;
+    border-radius: var(--border-radius);
+    color: var(--color2);
+}
+/**/
