@@ -9,6 +9,17 @@
     --color3 : #FCDDB0;
     --color4 : #EC7272;
     --border-radius : 0.3em;
+    text-decoration: none;
+}
+
+.TituloPrincipal{
+    background-color: var(--color1);
+    padding: 0.5em 3em;
+    font-size: 2em;
+    margin: 1em;
+    border-radius: var(--border-radius);
+    color: var(--color2);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /*Secciones*/
@@ -47,6 +58,7 @@
     font-size: 36px;
     padding: 0.5em 1em;
     border-radius: var(--border-radius);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 .subTituloPrincipal{
     font-size: xx-large;
@@ -72,7 +84,28 @@
     margin: 40px 0;
 }
 .btnIrUniguajira{
-    
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: var(--color3);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.btnIrUniguajira:hover{
+    background-color: var(--color1);
+    box-shadow: 0px 15px 20px var(--color3);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.btnIrUniguajira:active{
+    transform: translateY(-1px);
 }
 /**/
 /*--Elementos--*/
@@ -81,12 +114,5 @@
     object-fit: cover;
     padding: 1em;
 }
-.TituloPrincipal{
-    background-color: var(--color1);
-    padding: 0.5em 3em;
-    font-size: 2em;
-    margin: 1em;
-    border-radius: var(--border-radius);
-    color: var(--color2);
-}
+
 /**/
