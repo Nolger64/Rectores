@@ -11,7 +11,15 @@
     --border-radius : 0.3em;
     text-decoration: none;
 }
-
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    transition: all 0.1s;
+}
+section {
+    scroll-snap-align: start;
+}
 .TituloPrincipal{
     background-color: var(--color1);
     padding: 0.5em 3em;
